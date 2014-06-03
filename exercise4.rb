@@ -1,5 +1,6 @@
 range = 1..100
 
+range.each do |i|
 if (i%3==0 and i%5==0)
 	puts "Bitmaker"
 elsif i%3 == 0
@@ -9,4 +10,4 @@ elsif i%5 == 0
 else
 	puts i
 end
-	
+end
